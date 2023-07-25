@@ -47,7 +47,6 @@ services:
       WVP_CONFIG:
     depends_on:
       - redis
-      - mysql
   mysql:
     image: mysql  # 原镜像`mysql:5.7`
     container_name: mysql                                    # 容器名为'mysql'

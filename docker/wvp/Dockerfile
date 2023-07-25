@@ -14,7 +14,7 @@ RUN cd /home && \
         cp maven/settings.xml /usr/share/maven/conf/
 
 RUN cd /home && \
-        git clone "${gitUrl}/wvp-GB28181-pro.git"
+        git clone "https://github.com/ymy1111111111/wvp-GB28181-pro.git"
 RUN cd /home/wvp-GB28181-pro/web_src && \
         npm install && \
         npm run build
